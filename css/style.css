@@ -26,6 +26,13 @@ body {
           background-size: cover;
 }
 
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
