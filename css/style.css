@@ -1,9 +1,7 @@
 /* Initial body */
 body {
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 /* Initial menu */
@@ -18,6 +16,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
+  display: flex;
   align-items: center;
   background-image: url('/pics/background.png'); 
   height: 100%;
@@ -25,6 +24,7 @@ body {
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
