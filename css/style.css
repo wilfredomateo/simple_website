@@ -20,8 +20,6 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  display: flex;
-  align-items: center;
   background-image: url('/pics/background.png'); 
   height: 100%;
   -webkit-background-size: cover;
@@ -32,6 +30,8 @@ body {
 }
 
 .jumbotron h2 {
+  display: flex;
+  align-items: center;
   font-size: 60px;
   font-weight: 700;
   margin: 0;
