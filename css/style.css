@@ -20,6 +20,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
+  display: flex;
   align-items: center;
   background-image: url('/pics/background.png'); 
   height: 100%;
