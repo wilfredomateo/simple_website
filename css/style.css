@@ -27,9 +27,8 @@ body {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
+.container {
   font-family: 'Roboto', sans-serif;
-  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 60px;
