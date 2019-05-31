@@ -10,7 +10,7 @@
             "request": "attach",
             "port": 9222,
             "url": "http://localhost:5500/",
-            "webRoot": "${workspaceFolder}/"
+            "webRoot": "${workspaceFolder}"
         },
     ]
 }
