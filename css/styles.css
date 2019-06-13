@@ -1,0 +1,44 @@
+.synopsis {
+    color: lightgrey;
+    font-style: italic;
+}
+
+.synopsis em {
+    font-style: normal;
+}
+
+.button {
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkgray;
+    border-radius: 100px;
+
+    width: 75px;
+    margin: 20px auto;
+
+}
+
+.call-to-action {
+    font-style: italic;
+    background-color: darkkhaki;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+.page {
+    width: 600px;
+    margin: 0 auto; 
+}
