@@ -7,7 +7,11 @@
     font-style: normal;
 }
 
-.button {
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+
     color: white;
     background-color: cornflowerblue;
     font-weight: bold;
@@ -21,9 +25,21 @@
 
 }
 
+.button:hover, 
+.button:visited:hover {
+    color: white;
+    background-color: lightblue;
+}
+
+.button:active,
+.button:visited:active {
+    color: white;
+    background-color: blue;
+}
+
 .call-to-action {
     font-style: italic;
-    background-color: darkkhaki;
+    background-color: darkgreen;
 }
 
 a:link {
@@ -38,6 +54,7 @@ a:visited:hover {
 a:visited:active {
     color: red;
 }
+
 .page {
     width: 600px;
     margin: 0 auto; 
