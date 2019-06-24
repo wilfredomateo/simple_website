@@ -1,12 +1,19 @@
-.synopsis {
+
+/* Paragraph Styles */
+p:first-of-type {
     color: lightgrey;
     font-style: italic;
 }
 
-.synopsis em {
+p:first-of-type em {
     font-style: normal;
 }
 
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+/* Button Styles */
 .button:link,
 .button:visited {
     display: block;
@@ -37,11 +44,23 @@
     background-color: blue;
 }
 
-.call-to-action {
+.call-to-action:link,
+.call-to-action:visited {
     font-style: italic;
-    background-color: darkgreen;
+    background-color: orangered;
 }
 
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: lightcoral;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: yellowgreen;
+}
+
+/* Link Styles */
 a:link {
     color: blue;
     text-decoration: none;
@@ -55,6 +74,7 @@ a:visited:active {
     color: red;
 }
 
+/* Page Width Style */
 .page {
     width: 600px;
     margin: 0 auto; 
