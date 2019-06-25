@@ -4,22 +4,33 @@
     box-sizing: border-box;
   }
 
-  .menu {
+.menu {
     height: 100px;
     background-color: #B2D6FF;    /* Medium blue */
   }
   
-  .sidebar {
+.sidebar {
+    float: left;
     height: 300px;
+    width: 200px;
     background-color: #F09A9D;    /* Red */
-  }
+}
   
-  .content {
+.content {
+    float: left;
+    width: 650px;
     height: 500px;
     background-color: #F5CF8E;    /* Yellow */
-  }
+}
   
-  .footer {
+.footer {
+    clear: both;
     height: 200px;
     background-color: #D6E9FE;    /* Light blue */
-  }
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
