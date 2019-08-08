@@ -1,26 +1,35 @@
+
+/* Universal Selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Mobile Styles*/
+/* Base Styles */
+
+
+/* Mobile Styles */
 @media only screen and (max-width: 400px) {
     body {
         background-color: red;
     }
 }
 
-/*Tablet Styles*/
+/* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
         background-color: lightyellow;
     }
 }
 
-/*Desktop Styles*/
+/* Desktop Styles */
 @media only screen and (min-width: 961px) {
     body {
         background-color: green;
     }
 }
+
+
+
+
