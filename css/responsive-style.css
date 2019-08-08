@@ -7,7 +7,10 @@
 }
 
 /* Base Styles */
-
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
